@@ -89,17 +89,18 @@ python train.py --root .
 
 
 ## File Structure
+```
 .
 ├── file-1024/path/to/study/   # Directory containing MIMIC-CXR JPEG and reports
-├── output.csv                 # Processed radiology reports
-├── script.sh                  # Script to parse reports into CSV
-├── threelayerRBM.py           # Three-layer RBM implementation
-├── train.py                   # NVAE training script
-├── NVAE_evaluation.ipynb      # Notebook for NVAE evaluation
-├── normalvae.ipynb            # Notebook for baseline VAE training and evaluation
-├── eval-exp/                  # Directory for NVAE training outputs
-└── README.md                  # Project documentation
-
+├── output.csv                 # Processed radiology reports  
+├── script.sh                  # Script to parse reports into CSV  
+├── threelayerRBM.py           # Three-layer RBM implementation  
+├── train.py                   # NVAE training script  
+├── NVAE_evaluation.ipynb      # Notebook for NVAE evaluation  
+├── normalvae.ipynb            # Notebook for baseline VAE training and evaluation  
+├── eval-exp/                  # Directory for NVAE training outputs  
+└── README.md                  # Project documentation  
+```
 ## Installation
 
 Clone this repository:
@@ -116,10 +117,11 @@ Download and organize the MIMIC-CXR dataset in the directory structure:
 ```bash
 ./file-1024/path/to/study
 ```
+---
 ### Acknowledgements
-MIMIC-CXR Dataset: Johnson AEW, Pollard TJ, Shen L, et al. MIMIC-CXR.
-NVAE Implementation: Based on NVAE by NVIDIA.
-CMU 10-708 Course: Probabilistic Graphical Models, Fall 2024.
+- **MIMIC-CXR Dataset**: Johnson AEW, Pollard TJ, Shen L, et al. [MIMIC-CXR](https://doi.org/10.13026/4jqj-jw95).  
+- **NVAE Implementation**: Based on [NVAE by NVIDIA](https://arxiv.org/abs/2007.03898).  
+- **CMU 10-708 Course**: Probabilistic Graphical Models, Fall 2024.  
 
 
 

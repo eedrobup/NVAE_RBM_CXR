@@ -1,4 +1,4 @@
 files-1024/
 *.csv
 *.pkl
-*.txt
+script_log.txt

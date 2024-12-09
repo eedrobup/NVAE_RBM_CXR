@@ -1,0 +1,7 @@
+torch==2.0.0
+torchvision==0.15.2
+pandas==1.5.3
+Pillow==9.5.0
+numpy==1.23.5
+scipy==1.10.1
+tensorboard==2.18.0
